@@ -1,1 +1,1 @@
-In this project I'll be trying out my skills acquired via Project Odin (so far)
+In this project I'll be trying out my skills acquired via Project Odin (so far).
