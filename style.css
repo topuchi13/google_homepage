@@ -1,0 +1,21 @@
+body{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+div.header{
+    text-align: right;
+}
+
+a:link{
+    color: rgb(0,0,0,0.87);
+    text-decoration-line: none;
+}
+a:visited{
+    color: rgb(0,0,0,0.87);
+    text-decoration-line: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgba(59, 59, 59, 0.445);
+}
