@@ -1,13 +1,30 @@
 body{
     font-family: arial,sans-serif;
     font-size: 13px;
+    display: grid;
+    grid-template-columns:25% auto 25%;
+    grid-template-rows: 50px 15% auto 20% 500px;
 }
 
 div.header{
-    text-align: right;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    justify-content: end;
+    padding-top: 0px;
+    justify-self: end;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    text-justify: center;
+
+}
+
+#icon{
+    vertical-align: middle;
 }
 
 a:link{
+    padding: 5px;
     color: rgb(0,0,0,0.87);
     text-decoration-line: none;
 }
@@ -17,5 +34,30 @@ a:visited{
 }
 a:hover{
     text-decoration: underline;
-    color: rgba(59, 59, 59, 0.445);
+    color: rgba(49, 49, 49, 0.445);
 }
+
+div.main{
+    grid-column-start: 2;
+    grid-column-end: auto;
+    grid-row-start: 3;
+    grid-row-end: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+input[type=text]{
+    display: inline-flex;
+    margin-top: 20px;
+    width: 200%;
+    height: 45px;
+    border: 1px solid rgba(85, 85, 85, 0.397);
+    border-radius: 50px;
+    justify-self: center;
+}
+
+div.footer{
+
+
+}
+
