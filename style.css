@@ -3,18 +3,13 @@ body{
     font-size: 13px;
     height: 100%;
     display: grid;
-    grid-template-rows: 5em auto  3em 3em;
+    grid-template-rows: 5em auto 3em 3em;
     margin-left: 0;
     margin-right: 0;
     margin-top: 5px;
     overflow: hidden;
-    grid-template-areas: 
-            "top" 
-            "Center" 
-            "end_1"
-            "end_2"
+    grid-template-areas: "top" "Center" "end_1" "end_2" 
 }
-
 .header{
     grid-area: "top";
     justify-content: end;
@@ -22,11 +17,9 @@ body{
     text-align: center;
     text-justify: center;
 }
-
 #icon{
     vertical-align: middle;
 }
-
 a:link{
     padding: 5px;
     color: rgb(0,0,0,0.87);
@@ -40,7 +33,6 @@ a:hover{
     text-decoration: underline;
     color: rgba(49, 49, 49, 0.445);
 }
-
 div.main{
     display: block;
     grid-area: "center";
@@ -48,49 +40,41 @@ div.main{
     width: fit-content;
     justify-self: center;
 }
-
 .google_logo{
     align-self: center;
 }
-
 #google{
     display: block;
     margin: auto;
 }
-
 .search_field{
     position: relative;
     display: inline-block;
     justify-self: end;
     align-self: center;
 }
-
 .mic_icon{
     position: absolute;
     right: 20px;
     top: 18%;
 }
-
 input[type="search"]{
     padding-left: 20px;
     margin-top: 20px;
     width: 582px;
     height: 44px;
     border: 1px solid rgba(223,225,229, 0.8);
-    border-radius: 50px;    
+    border-radius: 50px;
 }
-
 input:hover{
     border: 1px solid rgba(116, 116, 116, 0.397);
     border-radius: 50px;
     justify-self: center;
     box-shadow: 0px 2px rgba(116, 116, 116, 0.397);
 }
-
 input:focus{
-    outline: none;    
+    outline: none;
 }
-
 input[type="button"]{
     height: 36px;
     line-height: 27px;
@@ -106,14 +90,11 @@ input[type="button"]{
     padding: 0 16px;
     text-align: center;
 }
-
 .buttons{
     margin-top: 20px;
     display: block;
     text-align: center;
 }
-
-
 .footer_1{
     height: 3em;
     grid-area: "end_1";
@@ -123,13 +104,11 @@ input[type="button"]{
     padding-left: 27px;
     font-size: 15px;
 }
-
 .footer_1 span{
     float: left;
     margin-top: 1ex;
     margin-bottom: 1ex;
 }
-
 .footer_2{
     border-top: 1px solid #e4e4e4;
     height: 3em;
@@ -138,22 +117,17 @@ input[type="button"]{
     padding-left: 25px;
     font-size: 15px;
 }
-
 .footer_2 a{
     color: #5f6368;
 }
-
 #left_footer{
     float: left;
     margin-top: 1ex;
     margin-bottom: 1ex;
 }
-
 #right_footer{
     float: right;
     margin-top: 1ex;
     margin-bottom: 1ex;
     margin-right: 27px;
 }
-
-
